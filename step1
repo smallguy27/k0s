@@ -1,3 +1,4 @@
+#!/bin/bash
 curl -sSLf https://get.k0s.sh | sudo sh
 sudo k0s install controller --single
 sudo k0s install controller -e ETCD_UNSUPPORTED_ARCH=arm
